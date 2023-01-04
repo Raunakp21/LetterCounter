@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.title {
+  font-size: 150px;
+  font-family: "BebasNeueRegular";
+  opacity: 0.7;
+}
+
+#block1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.input {
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: MetropolitanoRegular;
+  padding: 10px;
+}
+
+.count {
+  font-size: 25px;
+  margin-top: 5px;
+  font-family: MetropolitanoRegular;
+}
+
+.number {
+  margin-left: 20px;
+}
