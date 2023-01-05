@@ -35,3 +35,8 @@ body {
 .number {
   margin-left: 20px;
 }
+
+.bottom {
+  margin-top: 50px;
+  font-family: MetropolitanoRegular;
+}

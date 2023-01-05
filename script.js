@@ -2,14 +2,8 @@
 const input = document.querySelector(".input");
 const numCounter = document.querySelector("#number");
 
-input.onkeypress = letterCounter;
-
-function letterCounter() {
+//keyup causes Browser to process keyboard input first then allows the handler to execute
+input.addEventListener("keyup", function (e) {
   let count = input.value.length;
-  //   if (count == 0) {
-  //     numCounter.textContent = "0";
-  //   } else {
-  //     numCounter.textContent = count;
-  //   }
   numCounter.textContent = count;
-}
+});
